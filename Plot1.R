@@ -1,4 +1,4 @@
-##  Overview of steps
+##  Overview of steps to make Plot 1
 ##  Step 1: Import data
 ##  Step 2: Ensure data is formatted correctly and columns are labelled
 ##  Step 3: Subset data
@@ -10,7 +10,7 @@
 
 ##  Step 1: Import data using read.csv function
 
-EPC <- read.csv("~/Documents/Continued Learning/Coursera_DataScience/Course4_ExploratoryDataAnalysis/Course Project 1/household_power_consumption.txt", sep=";", na.strings="?")
+EPC <- read.csv("~/household_power_consumption.txt", sep=";", na.strings="?")
 
 
 ##  Step 2: Ensure data is formatted correctly and columns are labelled
